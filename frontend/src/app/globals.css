@@ -1,0 +1,22 @@
+:root {
+  --main-bg: #ffbf9b;
+  --primary-color: #fe5f00;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-bg);
+}
